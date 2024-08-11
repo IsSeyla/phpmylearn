@@ -1,0 +1,17 @@
+
+.container{
+    width: 600px;
+    height: 500px;
+}
+.h11{
+    font-size: 30px;
+}
+.tb tr{
+    font-size: 25px;
+}
+.tb tr th input,select{
+    font-size: 25px;
+}
+.tb tr th{
+    text-align: left;
+}

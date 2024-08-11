@@ -1,0 +1,53 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 600px;
+    background-color: aqua;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+h1{
+    padding-top: 10px;
+    text-align: center;
+    color: blue;
+}
+.container>form{
+    padding: 20px;
+    font-size: 20px;
+}
+.container input[type = "text"],input[type="number"],input[type="file"],select{
+    width: 100%;
+    text-indent: 10px;
+    height: 40px;
+    font-size: 20px;
+    padding-left: 10px;
+    border: none;
+    border-bottom: 2px solid red;
+    border-radius: 20px;
+}
+
+
+.container form input , label , select{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.container input[type="submit"]{
+    width: 100%;
+    height: 30px;
+    background-color: blue;
+    font-size: 20px;
+    color: wheat;
+    font-weight: 900;
+    cursor: help;
+}
+.container input[type="submit"]:hover{
+    background-color: blanchedalmond;
+    color: blue;
+    height: 35px;
+    transition: all 0.2s linear;
+}
+

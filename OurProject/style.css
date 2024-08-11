@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+    color: red;
+    font-weight: 900;
+}
+.resgister{
+    margin: auto;
+    background: rgb(237, 237, 237,1);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    margin-top: 10%;
+    width: 26%;
+    height: 400px;
+}
+form{
+    padding-top:40px;
+}
+.mybtn{
+    margin-top: 20px;
+    width: 100%;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    border: none;
+    font-weight: 900;
+}
+.mybtn:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 0, 0);
+}
